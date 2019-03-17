@@ -3,18 +3,6 @@
     <!-- Sidebar -->
     <v-navigation-drawer v-model="drawer" fixed app>
       <v-list>
-        <v-list-tile avatar>
-          <v-list-tile-avatar>
-            <img src="https://randomuser.me/api/portraits/men/85.jpg" />
-          </v-list-tile-avatar>
-
-          <v-list-tile-content>
-            <v-list-tile-title>John Leider</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-
-        <v-divider></v-divider>
-
         <v-list-tile
           v-for="(item, i) in items"
           :key="i"
@@ -77,12 +65,12 @@
 export default {
   data() {
     return {
-      title: 'Fichas',
+      title: 'Todos',
       dark: false,
       clipped: false,
       drawer: true,
       fixed: true,
-      // Sidebar right
+      // Right drawer
       rightDrawer: false,
       items: [
         {
