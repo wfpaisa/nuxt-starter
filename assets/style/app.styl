@@ -1,2 +1,40 @@
 // Import Vuetify styling
 @require '~vuetify/src/stylus/app.styl'
+
+// // Ingreso
+// .page-enter-active,
+// .page-leave-active {
+//   transition: all 0.5s;
+//   transform: translate(0,0)
+//   opacity: 1;
+// }
+
+// // Salida
+// .page-enter,
+// .page-leave-to{
+//   transition: all 0.5s;
+//   transform: translate(0,-60px)
+//   opacity: 0;
+// }
+
+
+// Ingreso
+.page-enter{
+  transition: all .5s;
+  transform: translate(-60px,0);
+  opacity: 0;
+  // background-color: green;
+}
+
+.page-enter-to{
+  transition: all .5s;
+  transform: translate(0,0px);
+  opacity: 1;
+  // background-color: red;
+}
+
+.page-leave-to{
+  transition: all .5s;
+  opacity: 0;
+  transform: translate(60px,0);
+}
