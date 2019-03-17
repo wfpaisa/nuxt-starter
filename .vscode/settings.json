@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.multiRootWorkspaceName": "nuxtest"
+  // "liveServer.settings.multiRootWorkspaceName": "dist",
+  "liveServer.settings.root": "./dist"
 }
