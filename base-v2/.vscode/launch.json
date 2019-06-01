@@ -9,7 +9,7 @@
       "webRoot": "${workspaceFolder}/",
       "breakOnLoad": true,
       "sourceMapPathOverrides": {
-        "webpack:///*": "${webRoot}/*",
+        "webpack:///*": "${webRoot}/*"
       },
       "disableNetworkCache": true,
       "sourceMaps": true,
